@@ -1,1 +1,1 @@
-# Spectrogram-optimized-prototype-learning
+# Spectrogram emotion optimized prototype learning
