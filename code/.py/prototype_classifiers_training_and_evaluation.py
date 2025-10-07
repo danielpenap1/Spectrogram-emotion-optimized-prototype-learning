@@ -139,7 +139,7 @@ n_mels = 128
 if dataset == 'RAVDESS':
     sr = 48000
     n_speakers = 24
-    complete_speakers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
+    speakers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
                          14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
     n_phonemes = 44
     n_classes = 8
@@ -171,7 +171,7 @@ elif dataset == 'EmoMatch':
     # n_speakers = 50
     speakers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 20, 22, 23,
                 25, 29, 31, 33, 35, 36, 37, 40, 41, 43, 45, 46, 49]
-    n_speakers = len(n_speakers)
+    n_speakers = len(speakers)
     n_phonemes = 24
     n_classes = 7
     class_names = [
