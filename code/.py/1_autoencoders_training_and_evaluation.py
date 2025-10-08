@@ -371,7 +371,7 @@ def hfenn(y_true, y_pred):
 """## **Training loop**"""
 
 #for speaker_id in range(1, n_speakers + 1):
-for speaker in speakers:
+for speaker_id in speakers:
     speaker = f"{speaker_id:02d}"  # format as '01', '02', ..., '50'
     print(f"\n\n🔁 Training Autoencoder for Speaker {speaker}...")
 
@@ -615,7 +615,7 @@ def displayReconstructionVertical(speaker, plt_name, n, x_to_show, decoder_preds
 results = []
 
 #for speaker_id in range(1, n_speakers + 1):
-for speaker in speakers:
+for speaker_id in speakers:
     speaker = f"{speaker_id:02d}"  # format as '01', '02', ..., '50'
     print(f"\n\n🔁 Evaluating Autoencoder for Speaker {speaker}...")
 
