@@ -596,29 +596,4 @@ title: Explainable Audio Emotion Recognition Using High-Resolution Autoencoder a
       </div>
     </div>
   </div>
-    
-
-
-  <script>
-    // Toggle for speakers
-    document.querySelectorAll(".foldable").forEach(fold => {
-      fold.addEventListener("click", () => {
-        const content = fold.nextElementSibling;
-        content.classList.toggle("show");
-        const arrow = fold.querySelector(".arrow");
-        arrow.style.transform = content.classList.contains("show") ? "rotate(90deg)" : "rotate(0deg)";
-      });
-    });
-
-    // Toggle for emotion classes
-    document.querySelectorAll(".class-foldable").forEach(cls => {
-      cls.addEventListener("click", () => {
-        const content = cls.nextElementSibling;
-        content.classList.toggle("show");
-        const arrow = cls.querySelector(".arrow");
-        arrow.style.transform = content.classList.contains("show") ? "rotate(90deg)" : "rotate(0deg)";
-      });
-    });
-  </script>
-
 </body>
