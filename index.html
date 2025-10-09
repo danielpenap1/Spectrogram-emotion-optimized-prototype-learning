@@ -1,0 +1,225 @@
+---
+layout: default
+title: Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning
+---
+
+<style>
+  .equalDivide tr td {
+    width: 150px;
+  }
+
+  .audio {
+    width: 150px;
+  }
+
+  .image {
+    width: 1000px;
+  }
+
+  .audio-title {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .audio-container {
+    margin-bottom: 10px;
+  }
+
+  .repository-link {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .repository-link a {
+    text-decoration: none;
+    color: white;
+    background-color: #007acc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .repository-link a:hover {
+    background-color: #005f99;
+  }
+
+  .repository-link a svg {
+    margin-left: 10px;
+    fill: white;
+  }
+
+  .foldable {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .arrow {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .content {
+    display: none;
+    margin-top: 10px;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var foldables = document.querySelectorAll(".foldable");
+
+    foldables.forEach(function(foldable) {
+      foldable.addEventListener("click", function() {
+        var content = this.nextElementSibling;
+        var arrow = this.querySelector(".arrow");
+        if (content.style.display === "none" || content.style.display === "") {
+          content.style.display = "block";
+          arrow.style.transform = "rotate(90deg)";
+        } else {
+          content.style.display = "none";
+          arrow.style.transform = "rotate(0deg)";
+        }
+      });
+    });
+  });
+</script>
+
+<body>
+
+  <!-- Repository Link -->
+  <div class="repository-link">
+    <a href="https://github.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning.io" target="_blank">
+      View the project on GitHub
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.1.82-.26.82-.58v-2.18c-3.34.72-4.04-1.6-4.04-1.6-.54-1.36-1.34-1.72-1.34-1.72-1.1-.76.08-.74.08-.74 1.22.08 1.86 1.26 1.86 1.26 1.08 1.84 2.82 1.3 3.52.98.1-.78.42-1.3.76-1.6-2.66-.3-5.46-1.34-5.46-5.98 0-1.32.46-2.4 1.22-3.24-.12-.3-.54-1.5.12-3.12 0 0 1-.32 3.28 1.22.96-.26 1.98-.4 3-.4s2.04.14 3 .4c2.26-1.54 3.28-1.22 3.28-1.22.66 1.62.24 2.82.12 3.12.76.84 1.22 1.92 1.22 3.24 0 4.66-2.8 5.68-5.48 5.98.44.38.82 1.1.82 2.22v3.28c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+      </svg>
+    </a>
+  </div>
+
+  <h2>EmoMatchSpanishDB</h2>
+
+  <h3 class="foldable">
+    <span class="arrow">&#9654;</span> Speaker 07 (female)
+  </h3>
+  <div class="content">
+    <div>
+      <!-- <h4>Autoencoder Reconstruction: Qualitative assessment</h4>
+      <center>
+          <img class="image"
+            src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/EmoMatchSpanishDB/speaker07/reconstruction/reconstruction.png"></img>
+      </center>-->
+
+      <h4>Learned prototypes</h4>
+      <center>
+        <img class="image"
+          src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/spectrograms/EmoMatchSpanishDB/SPE07/class_0_anger.png"></img>
+      </center>
+
+      <table width="100%" border="0">
+        <tr>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_40.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_41.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_42.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_43.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_44.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_45.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_46.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_47.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_48.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td class="audio-container">
+            <div class="audio-title">anger - 99.99%</div>
+            <audio controls class="audio">
+              <source
+                src="https://raw.githubusercontent.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning/main/prototypes/audios/EmoMatchSpanishDB/SPE07/anger_at_100_49.wav"
+                type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+
+
+
+</body>
