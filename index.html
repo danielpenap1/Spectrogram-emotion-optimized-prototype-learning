@@ -157,6 +157,21 @@ title: Explainable Audio Emotion Recognition Using High-Resolution Autoencoder a
         }
       });
     });
+
+    var classFoldables = document.querySelectorAll(".class-foldable");
+    classFoldables.forEach(function(cf) {
+      cf.addEventListener("click", function() {
+        var classContent = this.nextElementSibling;
+        var arrow = this.querySelector(".arrow");
+        if (classContent.style.display === "none" || classContent.style.display === "") {
+          classContent.style.display = "block";
+          arrow.style.transform = "rotate(90deg)";
+        } else {
+          classContent.style.display = "none";
+          arrow.style.transform = "rotate(0deg)";
+        }
+      });
+    });
   });
 </script>
 
