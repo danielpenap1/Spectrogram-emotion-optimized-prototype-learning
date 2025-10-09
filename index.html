@@ -115,7 +115,25 @@ title: Explainable Audio Emotion Recognition Using High-Resolution Autoencoder a
     width: 100%;
   }
 </style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var foldables = document.querySelectorAll(".foldable");
 
+    foldables.forEach(function(foldable) {
+      foldable.addEventListener("click", function() {
+        var content = this.nextElementSibling;
+        var arrow = this.querySelector(".arrow");
+        if (content.style.display === "none" || content.style.display === "") {
+          content.style.display = "block";
+          arrow.style.transform = "rotate(90deg)";
+        } else {
+          content.style.display = "none";
+          arrow.style.transform = "rotate(0deg)";
+        }
+      });
+    });
+  });
+</script>
 <body>
   <div class="speakers">
     <!--<h2>EmoMatchSpanishDB</h2>-->
