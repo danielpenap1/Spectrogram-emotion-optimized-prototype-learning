@@ -207,6 +207,63 @@ title: Explainable Audio Emotion Recognition Using High-Resolution Autoencoder a
       });
     });
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // STEP 1: Prevent all images and audios from loading initially
+    const allImgs = document.querySelectorAll("img[src]");
+    const allSources = document.querySelectorAll("audio source[src]");
+
+    allImgs.forEach(img => {
+      img.dataset.src = img.src;
+      img.removeAttribute("src");
+    });
+
+    allSources.forEach(srcEl => {
+      srcEl.dataset.src = srcEl.src;
+      srcEl.removeAttribute("src");
+    });
+
+    // STEP 2: Handle foldables (dataset, speaker, class)
+    const foldables = document.querySelectorAll(".foldable, .dataset-foldable, .class-foldable");
+
+    foldables.forEach(foldable => {
+      foldable.addEventListener("click", function() {
+        const content = this.nextElementSibling;
+        const arrow = this.querySelector(".arrow");
+        const isHidden = content.style.display === "none" || content.style.display === "";
+
+        if (isHidden) {
+          content.style.display = "block";
+          arrow.style.transform = "rotate(90deg)";
+          lazyLoad(content); // 👈 Load content when opened
+        } else {
+          content.style.display = "none";
+          arrow.style.transform = "rotate(0deg)";
+        }
+      });
+    });
+
+    // STEP 3: Load function — restore src when needed
+    function lazyLoad(container) {
+      // Load images
+      const imgs = container.querySelectorAll("img[data-src]");
+      imgs.forEach(img => {
+        if (!img.src) {
+          img.src = img.dataset.src;
+        }
+      });
+
+      // Load audio sources
+      const sources = container.querySelectorAll("audio source[data-src]");
+      sources.forEach(srcEl => {
+        if (!srcEl.src) {
+          srcEl.src = srcEl.dataset.src;
+          const audioEl = srcEl.closest("audio");
+          audioEl.load();
+        }
+      });
+    }
+  });
 </script>
 
 <body>
