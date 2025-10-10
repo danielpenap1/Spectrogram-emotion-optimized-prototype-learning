@@ -1,5 +1,5 @@
 # 📄 Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning
-### Daniel Peña Porras, Esteban García-Cuesta
+#### Daniel Peña Porras, Esteban García-Cuesta
 
 ---
 
@@ -14,7 +14,7 @@ The repository complements and extends the material included in the article. It 
 
 ---
 
-## ⚙️ Repository Structure and Usage
+### ⚙️ Repository Structure and Usage
 
 In the 📂**prototypes** folder, for each of the three datasets (EmoMatchSpanishDB, RAVDESS and EmoDB), we present the top-10 prototypes of each emotion of four different speakers. In the 📂**figures** folder we include the rest of the figures describing the model and the results.
 
@@ -31,7 +31,7 @@ The project is organized into **four main stages**. Each notebook can be execute
 
 ---
 
-## 🌐 Complementary Webpage
+### 🌐 Complementary Webpage
 
 An interactive GitHub Page is provided:
 
