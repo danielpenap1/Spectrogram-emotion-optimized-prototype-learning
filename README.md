@@ -1,3 +1,7 @@
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the [MIT License](LICENSE).
+
 # 📄 Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning
 
 ---
@@ -39,7 +43,3 @@ The page provides the reproducible prototypes in foldable sections for each data
 - Reproduction of **audio prototypes**  
 
 ---
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
