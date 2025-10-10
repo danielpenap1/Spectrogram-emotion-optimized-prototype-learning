@@ -6,13 +6,11 @@
 This repository accompanies the journal paper:
 
 > **Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning**  
-> *Author(s):* Daniel Peña, Esteban García-Cuesta.  
-> *Journal:* [Name of the Journal], [Year]  
-> *DOI:* [Insert DOI here]  
+> *Authors:* Daniel Peña, Esteban García-Cuesta.  
+> *Journal:* [Name of the Journal], [Year]
+> *DOI:* [DOI]  
 
-The repository and its complementary webpage provide the resources, models, and visualizations used in the study.  
-They aim to support **reproducibility**, **interpretability**, and **educational exploration** of the proposed explainable audio emotion recognition framework.
-
+The repository complements and extends the material included in the article. It provides the necessary code to run the described experiments, as well as reproducible results.
 ---
 
 ## 🧩 Repository Structure
