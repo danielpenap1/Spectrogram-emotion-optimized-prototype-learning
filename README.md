@@ -10,7 +10,8 @@ This repository accompanies the journal paper:
 > *Journal:* [Name of the Journal], [Year]
 > *DOI:* [DOI]  
 
-The repository complements and extends the material included in the article. It provides the necessary code to run the described experiments, as well as reproducible results.
+The repository complements and extends the material included in the article. It also provides the necessary code to run the experiments described in the paper as well as the explainability results.
+
 ---
 
 ## 🧩 Repository Structure
