@@ -175,38 +175,7 @@ title: Explainable Audio Emotion Recognition Using High-Resolution Autoencoder a
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var foldables = document.querySelectorAll(".foldable");
-
-    foldables.forEach(function(foldable) {
-      foldable.addEventListener("click", function() {
-        var content = this.nextElementSibling;
-        var arrow = this.querySelector(".arrow");
-        if (content.style.display === "none" || content.style.display === "") {
-          content.style.display = "block";
-          arrow.style.transform = "rotate(90deg)";
-        } else {
-          content.style.display = "none";
-          arrow.style.transform = "rotate(0deg)";
-        }
-      });
-    });
-
-    var classFoldables = document.querySelectorAll(".class-foldable");
-    classFoldables.forEach(function(cf) {
-      cf.addEventListener("click", function() {
-        var classContent = this.nextElementSibling;
-        var arrow = this.querySelector(".arrow");
-        if (classContent.style.display === "none" || classContent.style.display === "") {
-          classContent.style.display = "block";
-          arrow.style.transform = "rotate(90deg)";
-        } else {
-          classContent.style.display = "none";
-          arrow.style.transform = "rotate(0deg)";
-        }
-      });
-    });
-  });
+  
 
   document.addEventListener("DOMContentLoaded", function() {
     // STEP 1: Prevent all images and audios from loading initially
