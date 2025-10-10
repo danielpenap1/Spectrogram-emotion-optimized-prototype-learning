@@ -16,3 +16,27 @@ The repository complements and extends the material included in the article. It 
 
 ## 🧩 Repository Structure
 
+
+---
+
+## 🌐 Complementary Webpage
+
+An interactive webpage is available in the [`/docs`](./docs) directory (or at your GitHub Pages site):
+
+🔗 **[View Interactive Page](https://danielpenap1.github.io/Spectrogram-emotion-optimized-prototype-learning/)**
+
+The page includes:
+- Foldable sections for each dataset and speaker  
+- Visualization of **learned spectrogram prototypes** per emotion  
+- Example **audio samples** and their **reconstructed outputs**  
+- Lazy loading for optimized performance on large datasets  
+
+---
+
+## ⚙️ Setup and Usage
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning.git
+cd Spectrogram-emotion-optimized-prototype-learning
