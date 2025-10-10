@@ -21,9 +21,9 @@ The repository complements and extends the material included in the article. It 
 
 ## 🌐 Complementary Webpage
 
-An interactive webpage is available in the [`/docs`](./docs) directory (or at your GitHub Pages site):
+An interactive GitHub Page is provided:
 
-🔗 **[View Interactive Page](https://danielpenap1.github.io/Spectrogram-emotion-optimized-prototype-learning/)**
+🔗 **[https://danielpenap1.github.io/Spectrogram-emotion-optimized-prototype-learning/](https://danielpenap1.github.io/Spectrogram-emotion-optimized-prototype-learning/)**
 
 The page includes:
 - Foldable sections for each dataset and speaker  
