@@ -27,7 +27,8 @@ The project is organized into **four main stages**. Each notebook can be execute
 2. **`1_autoencoders_training_and_evaluation.ipynb`** – Train and evaluate the high-resolution autoencoders for the different speakers.
 3. **`2_prototype_classifiers_training_and_evaluation.ipynb`** – Train the prototype-based deep learning classifiers.
 4. **`3_prototype_analysis.ipynb`** – Analyze learned prototypes and generate visualizations.
-&gt; 💡 *Tip:* These notebooks are self-contained and can be adapted for different datasets by modifying the dataset path at the beginning of each notebook.
+
+> 💡 *Tip:* These notebooks are self-contained and can be adapted for different datasets by modifying the dataset path at the beginning of each notebook.
 
 ---
 
