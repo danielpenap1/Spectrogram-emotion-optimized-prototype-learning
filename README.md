@@ -1,7 +1,3 @@
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 # 📄 Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning
 
 ---
@@ -43,3 +39,7 @@ The page provides the reproducible prototypes in foldable sections for each data
 - Reproduction of **audio prototypes**  
 
 ---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
