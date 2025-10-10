@@ -37,17 +37,8 @@ An interactive GitHub Page is provided:
 
 🔗 **[https://danielpenap1.github.io/Spectrogram-emotion-optimized-prototype-learning/](https://danielpenap1.github.io/Spectrogram-emotion-optimized-prototype-learning/)**
 
-The page provides the reproducible prototypes foldable sections for each dataset and speaker. It allows:
+The page provides the reproducible prototypes in foldable sections for each dataset and speaker. It allows:
 - Visualization of **learned spectrogram prototypes** per emotion
 - Reproduction of **audio prototypes**  
 
 ---
-
-## ⚙️ Setup and Usage
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/danielpenap1/Spectrogram-emotion-optimized-prototype-learning.git
-
-cd Spectrogram-emotion-optimized-prototype-learning
