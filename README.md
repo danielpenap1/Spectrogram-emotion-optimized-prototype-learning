@@ -40,3 +40,7 @@ The page provides the reproducible prototypes in foldable sections for each data
 - Reproduction of **audio prototypes**  
 
 ---
+
+### 🧑‍💻 Contact
+
+For questions or collaborations please contact: 📧 **[daniel.penap@alumnos.upm.es](mailto:daniel.penap@alumnos.upm.es)**, 📧 **[daniel.penap@upm.es](mailto:daniel.penap@upm.es)** or 📧 **[esteban.garcia@upm.es](mailto:esteban.garcia@upm.es)**
