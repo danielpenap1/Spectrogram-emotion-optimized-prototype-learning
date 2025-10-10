@@ -23,9 +23,9 @@ You can execute either version depending on your workflow preference.
 
 The project is organized into **four main stages**. Each notebook can be executed independently by simply setting the appropriate dataset path.
 
-1. **`0_preprocess.ipynb`** – Data loading, normalization, and spectrogram generation.
-2. **`1_autoencoders_training_and_evaluation.ipynb`** – Train and evaluate the high-resolution autoencoder.
-3. **`2_prototype_classifiers_training_and_evaluation.ipynb`** – Train the prototype-based deep learning classifier.
+1. **`0_preprocess.ipynb`** – Data loading and spectrogram generation.
+2. **`1_autoencoders_training_and_evaluation.ipynb`** – Train and evaluate the high-resolution autoencoders for the different speakers.
+3. **`2_prototype_classifiers_training_and_evaluation.ipynb`** – Train the prototype-based deep learning classifiers.
 4. **`3_prototype_analysis.ipynb`** – Analyze learned prototypes and generate visualizations.
 &gt; 💡 *Tip:* These notebooks are self-contained and can be adapted for different datasets by modifying the dataset path at the beginning of each notebook.
 
