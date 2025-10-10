@@ -1,13 +1,13 @@
-# 🧠 Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning
+# 📄 Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning
 ### Daniel Peña Porras, Esteban García-Cuesta
 
 
-## 📄 Overview
+
 
 This repository accompanies the journal paper:
 
 > **Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning**  
-> *Author(s):* Daniel Peña, et al.  
+> *Author(s):* Daniel Peña, Esteban García-Cuesta.  
 > *Journal:* [Name of the Journal], [Year]  
 > *DOI:* [Insert DOI here]  
 
