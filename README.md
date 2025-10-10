@@ -16,10 +16,10 @@ The repository complements and extends the material included in the article. It 
 
 ## ⚙️ Repository Structure and Usage
 
+In the 📂**prototypes** folder, for each of the three datasets (EmoMatchSpanishDB, RAVDESS and EmoDB), we present the top-10 prototypes of each emotion of four different speakers. In the 📂**figures** folder we include the rest of the figures describing the model and the results.
+
 The repository includes both **Jupyter notebooks** (`.ipynb`) and equivalent **Python scripts** (`.py`) for the entire experimental pipeline.  
 You can execute either version depending on your workflow preference.
-
-### 🧪 Run the Pipeline (Jupyter Notebooks)
 
 The project is organized into **four main stages**. Each notebook can be executed independently by simply setting the appropriate dataset path.
 
