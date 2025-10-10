@@ -1,24 +1,27 @@
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 # 📄 Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning
-#### Daniel Peña Porras, Esteban García-Cuesta
-[comment]: <> (This is a comment, it will not be included)
+
 ---
 
 This repository accompanies the journal paper:
 
 > **Explainable Audio Emotion Recognition Using High-Resolution Autoencoder and Prototype-Based Deep Learning**  
-> *Authors:* Daniel Peña, Esteban García-Cuesta.  
 
 The repository complements and extends the material included in the article. It also provides the necessary code to run the experiments as well as the explainability results: the learned **prototypes** as spectrograms and as audio signals.
 
 ---
 
-### ⚙️ Repository Structure and Usage
+### Repository Structure and Usage
 
-In the 📂**prototypes** folder, for each of the three datasets (EmoMatchSpanishDB, RAVDESS and EmoDB), we present the top-10 prototypes of each emotion of four different speakers. In the 📂**figures** folder we include the rest of the figures describing the model and the results.
+The structure of the repository is the following:
 
-The repository includes both **Jupyter notebooks** (`.ipynb`) and equivalent **Python scripts** (`.py`) for the entire experimental pipeline. You can execute either version depending on your workflow preference.
+- In the 📂**prototypes** folder, for each of the three datasets (EmoMatchSpanishDB, RAVDESS and EmoDB), we present the top-10 prototypes of each emotion of four different speakers.
+- In the 📂**figures** folder we include the rest of the figures describing the model and the results.
 
-The project is organized into **four main stages**. Each notebook can be executed independently by simply setting the appropriate dataset path.
+To reproduce the experiments, the repository includes both **Jupyter notebooks** (`.ipynb`) and equivalent **Python scripts** (`.py`) for the entire experimental pipeline. You can execute either version depending on your workflow preference. The project is organized into **four main stages**. Each notebook can be executed independently by simply setting the appropriate dataset path.
 
 1. **`0_preprocess.ipynb`** – Data loading and spectrogram generation.
 2. **`1_autoencoders_training_and_evaluation.ipynb`** – Train and evaluate the high-resolution autoencoders for the different speakers.
@@ -29,7 +32,7 @@ The project is organized into **four main stages**. Each notebook can be execute
 
 ---
 
-### 🌐 Complementary Webpage
+### Complementary Webpage
 
 An interactive GitHub Page is provided:
 
@@ -40,7 +43,3 @@ The page provides the reproducible prototypes in foldable sections for each data
 - Reproduction of **audio prototypes**  
 
 ---
-
-### 🧑‍💻 Contact
-
-For questions or collaborations please contact: 📧 **[daniel.penap@alumnos.upm.es](mailto:daniel.penap@alumnos.upm.es)**, 📧 **[daniel.penap@upm.es](mailto:daniel.penap@upm.es)** or 📧 **[esteban.garcia@upm.es](mailto:esteban.garcia@upm.es)**
